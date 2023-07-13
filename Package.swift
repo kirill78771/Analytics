@@ -12,7 +12,7 @@ let package = Package(
         .library(name: "AnalyticsTelemetryDeck", targets: ["AnalyticsTelemetryDeck"])
     ],
     dependencies: [
-        .package(url: "https://github.com/amplitude/Amplitude-iOS", from: "8.3.0"),
+        .package(url: "https://github.com/amplitude/Amplitude-iOS", from: "8.17.1"),
         .package(url: "https://github.com/TelemetryDeck/SwiftClient", from: "1.4.4")
     ],
     targets: [
