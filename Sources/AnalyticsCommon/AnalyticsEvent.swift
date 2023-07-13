@@ -32,6 +32,12 @@ extension Dictionary where Key == String, Value == AnalyticsEventParameter {
     public var plain: [String: Any] {
         mapValues(\.rawValue)
     }
+
+    public var plainString: [String: String] {
+        mapValues { value in
+            "\(value.rawValue)"
+        }
+    }
 }
 
 public struct AnalyticsEvent: AnalyticsEventProtocol {

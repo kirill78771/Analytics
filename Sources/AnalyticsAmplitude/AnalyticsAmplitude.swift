@@ -17,7 +17,7 @@ public final class AnalyticsAmplitude: AnalyticsProtocol {
     }
 
     public func initialize() {
-        amplitude.trackingSessionEvents = true
+        amplitude.defaultTracking.sessions = true
         amplitude.initializeApiKey(apiKey)
         amplitude.setUserId(userId)
     }
