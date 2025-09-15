@@ -1,5 +1,5 @@
 import Foundation
-import Amplitude
+@preconcurrency import Amplitude
 import AnalyticsCommon
 
 public final class AnalyticsAmplitude: AnalyticsProtocol {

@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/amplitude/Amplitude-iOS",
       "state" : {
-        "revision" : "94160a550835e6f0a1df9fa76ab3902ac4648a9c",
-        "version" : "8.17.1"
+        "revision" : "7ec0f8971b68c1cb859028655fbff1bcde8170dd",
+        "version" : "8.22.2"
       }
     },
     {
@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/TelemetryDeck/SwiftClient",
       "state" : {
-        "revision" : "3f8bd438c8681ce7ccdf035b529cb5c4cd82cd7b",
-        "version" : "1.4.4"
+        "revision" : "a7fd1eb469589a3c8fd8cc3abe19b092b5d674dc",
+        "version" : "2.9.4"
       }
     }
   ],

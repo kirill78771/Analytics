@@ -2,9 +2,9 @@ import Foundation
 
 public final class AnalyticsPrint: AnalyticsProtocol {
 
-    private let printAction: (String) -> Void
+    private let printAction: @Sendable (String) -> Void
 
-    public init(printAction: @escaping (String) -> Void) {
+    public init(printAction: @escaping @Sendable (String) -> Void) {
         self.printAction = printAction
     }
 

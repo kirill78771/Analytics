@@ -1,8 +1,8 @@
 import UIKit
 
-private var tracksAppearanceMethodsKey: UInt8 = 0
-private var trackingScreenNameKey: UInt8 = 0
-private var trackingAdditionalParametersKey: UInt8 = 0
+@MainActor private var tracksAppearanceMethodsKey: UInt8 = 0
+@MainActor private var trackingScreenNameKey: UInt8 = 0
+@MainActor private var trackingAdditionalParametersKey: UInt8 = 0
 
 extension UIViewController {
 

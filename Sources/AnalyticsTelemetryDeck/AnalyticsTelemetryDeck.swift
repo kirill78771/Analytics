@@ -11,13 +11,10 @@ public final class AnalyticsTelemetryDeck: AnalyticsProtocol {
     }
     
     public func send(_ event: AnalyticsCommon.AnalyticsEventProtocol) {
-        TelemetryManager.send(event.name, with: event.parameters.plainString)
+        TelemetryDeck.signal(event.name, parameters: event.parameters.plainString)
     }
 
     public func initialize() {
-        let configuration = TelemetryManagerConfiguration(
-            appID: appId
-        )
-        TelemetryManager.initialize(with: configuration)
+        TelemetryDeck.initialize(config: .init(appID: appId))
     }
 }

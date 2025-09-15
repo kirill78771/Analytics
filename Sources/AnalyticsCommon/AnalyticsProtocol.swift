@@ -1,6 +1,6 @@
 import Foundation
 
-public protocol AnalyticsProtocol: AnyObject {
+public protocol AnalyticsProtocol: AnyObject, Sendable {
     func send(_ event: AnalyticsEventProtocol)
     func initialize()
 }
